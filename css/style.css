@@ -296,8 +296,9 @@ body{
 }
 
 .set-six-top {
-    font-size: 10px;
-   
+    border-top: 1px solid #000;
+    font-size: 13px;
+   padding-top: 10px;
    
 }
 
@@ -308,6 +309,33 @@ body{
 }
 
 .set-six-top ul li {
-    text-decoration: none;
-    cursor: pointer;
+  margin-left: 10px;
+  text-decoration: none;
+  cursor: pointer;
 }
+
+.article-set-six {
+  margin: 0;
+  padding-top: 10px;
+  display: grid;
+  grid-template-columns: 210px 600px;
+  border-top: 1px solid #000;
+  cursor: pointer;
+}
+
+.image-six img {
+  width: 97%;
+  height: 97%;
+  margin-left: 10px;
+}
+
+.articles-of-set-six .article-two {
+  margin-top: 10px;
+  border-top: 1px solid #2a2b2b;
+}
+
+.articles-of-set-six .article-three {
+  margin-top: 10px;
+  border-top: 1px solid #2a2b2b;
+}
+
