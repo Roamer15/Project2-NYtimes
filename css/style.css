@@ -13,12 +13,16 @@ body{
   text-align: center;
 }
 
+/*Beginning of top div*/
 .top{
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
+.navbar{
+    border-bottom: 1px solid #000;
+}
 .option{
   margin-right: 20px;
   box-sizing: border-box;
@@ -28,7 +32,7 @@ body{
 }
 
 .option a{
-    text-align: center;
+  text-align: center;
   color: #7a7979;
   text-decoration: none;
   padding-right: 10px;
@@ -78,5 +82,56 @@ body{
   font-size: smaller;
   cursor: pointer;
 }
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.option-dropdown{
+    box-sizing: border-box;
+    list-style: none;
+    display: flex;
+    padding: 0 5rem 0 5rem;
+    margin-bottom: 15px;
+}
+
+.option-dropdown li{
+    padding-left: 1rem;
+    font-size: small;
+    cursor: pointer;
+}
+
+.option-dropdown .material-icons{
+    color: #7a7979;
+}
+/*End of navbar div*/
+/*Beginning of the heading news*/
+.heading-news{
+    margin-top: 2px;
+    border-top: 1px solid #000;
+}
+
+.main-line{
+  font: bold;
+  font-size: small;
+  justify-content: space-between;
+  margin: 0 23rem 0 23rem;
+  box-sizing: border-box;
+  list-style: none;
+  display: flex;
+  padding: 0.7rem;
+  cursor: pointer;
+}
+
+.main-line a{
+    color: #000;
+    text-decoration: none;
+}
+/*End of the heading news*/
+
+/*Start of main body*/
+
 
 
