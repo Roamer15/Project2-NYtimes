@@ -132,6 +132,29 @@ body{
 /*End of the heading news*/
 
 /*Start of main body*/
+.main-body{
+    display: grid;
+}
+.main-body-info{
+    width: 75%;
+}
 
+.year{
+    display: flex;
+    margin-bottom: 12px;
+}
 
+.year #red-two{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    color: #fff;
+}
+
+.year #blue-zero{
+    width: 20px;
+    height: 20px;
+    background-color: #009bf4;
+    color: #fff;
+}
 
