@@ -374,6 +374,7 @@ cursor: pointer;
 figcaption{
   font-size: 10px;
   color: #7a7979;
+  margin-left: 10px;
 }
 
 .image-seven img{
@@ -397,4 +398,29 @@ figcaption{
   margin-left: 10px;
   padding-left: 30px;
   border-left: 1px solid #2a2b2b;
+}
+
+.article-set-nine {
+  margin: 0;
+  display: grid;
+  grid-template-columns: 210px 600px;
+  border-bottom: 1px solid #000;
+}
+
+.article-set-ten {
+  margin: 0;
+  display: grid;
+  grid-row-start: span 3;
+  grid-row-end: span 4;
+  grid-template-columns: 210px 600px;
+  border-bottom: 1px solid #000;
+}
+
+.image-ten img{
+  margin-left: 10px;
+}
+
+.articles-of-set-ten .article-two {
+  margin-top: 10px;
+  border-top: 1px solid #2a2b2b;
 }
