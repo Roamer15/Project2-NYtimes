@@ -503,3 +503,27 @@ figcaption{
 .image-sixteen {
   margin-left: 10px;
 }
+
+/*Side information begins*/
+.side-information{
+  border-left: 1px solid #000;
+  margin-left: 0;
+  padding-left: 10px;
+}
+
+.article-side-one {
+  border-top: 1px solid #000;
+  padding-top: 5%;
+  margin-top: 0;
+  border-bottom: 1px solid #a09d9d;
+  padding-bottom: 5%;
+}
+
+.side-image-one {
+  height: 100%;
+  width: 50%;
+}
+.side-image-one img {
+  height: 200%;
+  width: 200%;
+}
