@@ -47,4 +47,36 @@ body{
     padding: 4px;
 }
 
+.middle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.date{
+    text-align: left;
+    font-size: smaller;
+}
+
+.date a{
+    text-decoration: none;
+    color: #000;
+}
+
+.logo{
+    width: 485px;
+    height: 64px;
+}
+
+.logo img{
+    width: 485px;
+    height: 64px;
+    cursor: pointer;
+}
+
+.stocks{
+  font-size: smaller;
+  cursor: pointer;
+}
+
 
