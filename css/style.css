@@ -465,9 +465,16 @@ figcaption{
   border-bottom: 1px solid #000;
 }
 
-.imafe-twelve video{
+.imafe-thirteen video{
   margin-left: 10px;
   width: 90%;
   height: 95%;
-
 }
+
+.article-set-fourteen {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 210px 600px;
+    border-bottom: 1px solid #000;
+}
+
