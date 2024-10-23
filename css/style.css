@@ -424,3 +424,50 @@ figcaption{
   margin-top: 10px;
   border-top: 1px solid #2a2b2b;
 }
+
+.article-set-eleven {
+  margin: 0;
+  display: grid;
+  grid-template-columns: 210px 600px;
+  border-bottom: 1px solid #000;
+}
+
+.image-eleven {
+  width: auto;
+  height: auto;
+}
+
+.image-eleven img {
+  width: 95%;
+  height: 95%;
+}
+
+.article-set-twelve {
+  margin: 0;
+  display: grid;
+  grid-template-columns: 210px 600px;
+  border-bottom: 1px solid #000;
+}
+
+.articles-of-set-twelve .article-two {
+  margin-top: 10px;
+  border-top: 1px solid #2a2b2b;
+}
+
+.image-twelve img{
+  margin-left: 10px;
+}
+
+.article-set-thirteen {
+  margin: 0;
+  display: grid;
+  grid-template-columns: 210px 600px;
+  border-bottom: 1px solid #000;
+}
+
+.imafe-twelve video{
+  margin-left: 10px;
+  width: 90%;
+  height: 95%;
+
+}
