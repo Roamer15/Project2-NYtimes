@@ -134,12 +134,20 @@ body{
 /*Start of main body*/
 .main-body{
     display: grid;
+    grid-template-columns: 71% 29%;
 }
 .main-body-info{
+    display: grid;
+    grid-column-start:span 1;/*Helps to define the exact space given to a specific div (in this case main-body-info)*/
+    grid-column-end: span 2;
+    grid-template-rows: 5px 10%;
+    gap: 3rem;
     width: 75%;
 }
 
 .year{
+    grid-row-start: span 1;
+    grid-row-end: span 2;
     display: flex;
     margin-bottom: 12px;
 }
@@ -157,4 +165,53 @@ body{
     background-color: #009bf4;
     color: #fff;
 }
+
+.article-set-one{
+    margin: 0;
+    display: grid;
+    grid-template-columns: 210px 600px ;
+}
+
+.first-image{
+    margin-left: 10px;
+    width: auto;
+    height: auto;
+}
+
+.articles-of-set-one .article-two {
+    margin-top: 10px;
+    border-top: 1px solid #2a2b2b;
+
+}
+
+.articles-of-set-one .article-three {
+    margin-top: 10px;
+    border-top: 1px solid #2a2b2b;
+
+}
+/*
+.article-set-two{
+    margin: 0;
+    display: grid;
+    grid-template-columns: 210px 600px ;
+}
+
+.second-image{
+    margin-left: 10px;
+    width: auto;
+    height: auto;
+}
+
+.articles-of-set-two .article-two {
+    margin-top: 10px;
+    border-top: 1px solid #2a2b2b;
+
+}
+
+.articles-of-set-two .article-three {
+    margin-top: 10px;
+    border-top: 1px solid #2a2b2b;
+
+}
+
 
