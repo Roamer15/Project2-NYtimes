@@ -296,10 +296,9 @@ body{
 }
 
 .set-six-top {
-    border-top: 1px solid #000;
-    font-size: 13px;
-   padding-top: 10px;
-   
+  border-top: 1px solid #000;
+  font-size: 13px;
+  padding-top: 10px;
 }
 
 .set-six-top ul {
@@ -339,3 +338,63 @@ body{
   border-top: 1px solid #2a2b2b;
 }
 
+.set-seven-top {
+  border-top: 1px solid #000;
+  font-size: 13px;
+  padding-top: 10px;
+}
+
+.set-seven-top ul {
+  padding-left: 4px;
+  display: flex;
+  list-style: none;
+}
+
+.set-seven-top ul li {
+margin-left: 10px;
+text-decoration: none;
+cursor: pointer;
+}
+
+/*Article set two begins*/
+.article-set-seven{
+  margin: 0;
+  display: grid;
+  grid-row-start: span 3;
+  grid-row-end: span 4;
+  grid-template-columns: 210px 600px;
+  border-bottom: 1px solid #000;
+}
+
+/*.seven-image{
+  width: auto;
+  height: auto;
+}*/
+
+figcaption{
+  font-size: 10px;
+  color: #7a7979;
+}
+
+.image-seven img{
+  margin-left: 10px;
+}
+
+.articles-of-set-seven .article-two {
+  margin-top: 10px;
+  border-top: 1px solid #2a2b2b;
+
+}
+
+.articles-of-set-eight {
+  margin: 0;
+  display: grid;
+  grid-template-columns: 405px 405px;
+}
+
+.articles-of-set-eight .article-two {
+  margin-top: 20px;
+  margin-left: 10px;
+  padding-left: 30px;
+  border-left: 1px solid #2a2b2b;
+}
