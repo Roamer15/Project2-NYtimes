@@ -136,11 +136,15 @@ body{
     display: grid;
     grid-template-columns: 71% 29%;
 }
+.main-body p{
+    font-size: small;
+    color: #2a2b2b;
+}
 .main-body-info{
     display: grid;
     grid-column-start:span 1;/*Helps to define the exact space given to a specific div (in this case main-body-info)*/
     grid-column-end: span 2;
-    grid-template-rows: 5px 10%;
+    grid-template-rows: 5px 5.2% 10px;
     gap: 3rem;
     width: 75%;
 }
@@ -166,10 +170,14 @@ body{
     color: #fff;
 }
 
+/*Article set one begins*/
 .article-set-one{
+    grid-row-start: span 2;
+    grid-row-end: span 3;
     margin: 0;
     display: grid;
     grid-template-columns: 210px 600px ;
+    border-bottom: 1px solid #000;
 }
 
 .first-image{
@@ -189,11 +197,15 @@ body{
     border-top: 1px solid #2a2b2b;
 
 }
-/*
+
+/*Article set two begins*/
 .article-set-two{
     margin: 0;
     display: grid;
-    grid-template-columns: 210px 600px ;
+    grid-row-start: span 3;
+    grid-row-end: span 4;
+    grid-template-columns: 210px 600px;
+    border-bottom: 1px solid #000;
 }
 
 .second-image{
@@ -208,10 +220,94 @@ body{
 
 }
 
-.articles-of-set-two .article-three {
+/*.articles-of-set-two .article-three {
     margin-top: 10px;
     border-top: 1px solid #2a2b2b;
 
+}*/
+
+.time{
+    font-size: 10px;
+    color: #b6b3b3;
+}
+/*Article set three begins*/
+.articles-of-set-three {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 405px 405px;
 }
 
+.articles-of-set-three .article-second {
+    margin-left: 10px;
+    padding-left: 30px;
+    border-left: 1px solid #2a2b2b;
+}
 
+/*Beginning of set four*/
+.article-set-four{
+    margin: 0;
+    display: grid;
+    grid-template-columns: 380px 123px 135px;
+}
+
+.article-set-four .article-one table td{
+    padding: 2px 2px 2px 0;
+    border-bottom: 1px solid #000;
+}
+
+.article-set-four .article-two {
+    border-left: 1px solid #000;
+    padding-left: 20px;
+}
+
+.article-set-four .article-two tr {
+    border-bottom: 1px solid #000;
+}
+
+.article-set-four .article-three {
+    border-left: 1px solid #000;
+    padding-left: 20px;
+}
+
+.article-set-four .article-three img {
+    margin-top: 3px;
+  width: 70px;
+  height: 70px;
+}
+
+/*Beginning of set five*/
+.article-set-five{
+    margin: 0;
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: 135px 675px;
+    border-top: 1px solid #000;
+    cursor: pointer;
+}
+
+.image-five img {
+    width: 120px;
+    height: 140px;
+}
+
+.article-set-five .text-for-five {
+    margin-top: 0;
+    padding: 20px;
+}
+
+.set-six-top {
+    font-size: 10px;
+   
+   
+}
+
+.set-six-top ul {
+    padding-left: 4px;
+    display: flex;
+    list-style: none;
+}
+
+.set-six-top ul li {
+    text-decoration: none;
+    cursor: pointer;
+}
