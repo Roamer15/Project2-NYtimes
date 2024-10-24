@@ -1059,5 +1059,14 @@ figcaption{
 }
 
 .new{
-  display: flexbox;
+  display: table;
+}
+
+.new .container {
+    margin-top: 10px;
+    width: 20%;
+    height: 100%;
+    gap: 20px;
+    float: left;
+    margin-left: 0.5rem;
 }
