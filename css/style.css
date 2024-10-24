@@ -497,7 +497,6 @@ figcaption{
   margin: 0;
   display: grid;
   grid-template-columns: 210px 600px;
-  border-bottom: 1px solid #000;
 }
 
 .image-sixteen {
@@ -773,4 +772,76 @@ figcaption{
 .article-two .sidetwo {
   padding-left: 15px;
 }
+/*End of side information styling*/
 
+.second-part-body {
+  border-top: 1px solid #000;
+  margin-top: 10px;
+}
+
+.more-news {
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+  padding: 20px 0 20px 0;
+  border-bottom: 1px solid #000;
+}
+
+.first-column {
+  display: grid;
+  border-right: 1px solid #000;
+  padding-right: 10px;
+}
+
+.first-column .disney-related-news {
+  border-bottom: 1px solid #000;
+  padding-bottom: 10px;
+}
+
+.first-column .fethullah-related-news {
+  border-bottom: 1px solid #000;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+.first-column .charles-iii-related-news {
+  padding-top: 5px;
+}
+.second-column {
+  padding: 0 10px 0 10px;
+  border-right: 1px solid #000;
+}
+
+.second-column img {
+  width: 100%;
+  height: 78%;
+}
+
+.third-column {
+  display: grid;
+  padding-left: 10px;
+}
+
+.third-column .article-one {
+  border-bottom: 1px solid #000;
+  padding-bottom: 10px;
+}
+
+.third-column .article-two {
+  border-bottom: 1px solid #000;
+  padding-bottom: 10px;
+}
+
+.third-column .article-three {
+  border-bottom: 1px solid #000;
+  padding-bottom: 10px;
+}
+
+.third-column .article-four {
+  border-bottom: 1px solid #000;
+  padding-bottom: 10px;
+}
+
+.third-column .article-five {
+  border-bottom: 1px solid #000;
+  padding-bottom: 10px;
+}
