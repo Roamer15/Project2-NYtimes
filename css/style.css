@@ -4,7 +4,7 @@
 }
 
 body {
-  max-width: 1000pxpx;
+  max-width: 1200px;
   background-color: #fff;
   margin: 0 18%;
   height: 100%;
@@ -20,7 +20,7 @@ main {
   text-align: center;
 }
 
-/*Beginning of top div*/
+/* Beginning of top div */
 .top {
   display: flex;
   justify-content: space-between;
@@ -47,22 +47,32 @@ main {
   cursor: pointer;
 }
 
+.date a {
+  text-decoration: none;
+  color: #000;
+}
+
+.main-line a {
+  color: #000;
+  text-decoration: none;
+}
+
 .option a:hover {
-    background-color: aliceblue;
+  background-color: aliceblue;
 }
 
 .btn button {
   height: 10%;
   border-radius: 2px;
   border: none;
-  background-color: rgb(62, 178, 245);
+  background-color: #2bb3f1;
   color: #fcfcfc;
   padding: 4px;
   cursor: pointer;
 }
 
 .middle {
-  padding: 20px 0 20px 0;
+  padding: 20px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -71,11 +81,6 @@ main {
 .date {
   text-align: left;
   font-size: smaller;
-}
-
-.date a {
-  text-decoration: none;
-  color: #000;
 }
 
 .logo {
@@ -95,16 +100,16 @@ main {
 }
 
 .bottom {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .option-dropdown {
   box-sizing: border-box;
   list-style: none;
   display: flex;
-  padding: 0 5rem 0 5rem;
+  padding: 0 5rem;
   margin-bottom: 15px;
 }
 
@@ -118,9 +123,10 @@ main {
   color: #7a7979;
   cursor: pointer;
 }
-/*End of navbar div*/
 
-/*Beginning of the heading news*/
+/* End of navbar div */
+
+/* Beginning of the heading news */
 .heading-news {
   margin-top: 2px;
   border-top: 1px solid #6160607c;
@@ -132,7 +138,7 @@ main {
   font: bold;
   font-size: small;
   justify-content: space-between;
-  margin: 0 23rem 0 23rem;
+  margin: 0 23rem;
   box-sizing: border-box;
   list-style: none;
   display: flex;
@@ -140,26 +146,17 @@ main {
   cursor: pointer;
 }
 
-.main-line a {
-    color: #000;
-    text-decoration: none;
-}
-/*End of the heading news*/
+/* End of the heading news */
 
-/*Start of main body*/
+/* Start of main body */
 .main-body {
   display: grid;
   grid-template-columns: 71% 29%;
 }
 
-.main-body p {
-  font-size: small;
-  color: #2a2b2b;
-}
-
 .main-body-info {
   display: grid;
-  grid-column-start:span 1;/*Helps to define the exact space given to a specific div (in this case main-body-info)*/
+  grid-column-start:span 1;/* Helps to define the exact space given to a specific div (in this case main-body-info) */
   grid-column-end: span 2;
   grid-template-rows: 5px 5.2% 10px;
   gap: 3rem;
@@ -189,7 +186,7 @@ main {
   color: #fff;
 }
 
-/*Article set one begins*/
+/* Article set one begins */
 .article-set-one {
   grid-row-start: span 2;
   grid-row-end: span 3;
@@ -220,7 +217,7 @@ main {
   border-top: 1px solid #6160607c;
 }
 
-/*Article set two begins*/
+/* Article set two begins */
 .article-set-two {
   margin: 0;
   display: grid;
@@ -243,18 +240,12 @@ main {
   border-top: 1px solid #2a2b2b;
 }
 
-/*.articles-of-set-two .article-three {
-    margin-top: 10px;
-    border-top: 1px solid #2a2b2b;
-
-}*/
-
 .time {
   font-size: 10px;
   color: #b6b3b3;
 }
 
-/*Article set three begins*/
+/* Article set three begins */
 .articles-of-set-three {
   margin: 0;
   border-bottom: 1px solid #6160607c;
@@ -269,7 +260,7 @@ main {
   border-left: 1px solid #2a2b2b;
 }
 
-/*Beginning of set four*/
+/* Beginning of set four */
 .article-set-four {
   margin: 0;
   display: grid;
@@ -287,12 +278,119 @@ main {
 }
 
 .article-set-four .article-two tr {
-    border-bottom: 1px solid #6160607c;
+  border-bottom: 1px solid #6160607c;
 }
 
 .article-set-four .article-three {
-  border-left: 1px solid #6160607c;
-  padding-left: 20px;
+border-left: 1px solid #6160607c;
+padding-left: 20px;
+}
+
+.image-five img {
+  width: 120px;
+  height: 140px;
+}
+
+.image-six img {
+  width: 97%;
+  height: 97%;
+  margin-left: 10px;
+}
+
+.image-seven img{
+  margin-left: 10px;
+}
+
+.image-ten img{
+  margin-left: 10px;
+}
+
+.image-eleven img {
+  width: 95%;
+  height: 95%;
+}
+
+.image-twelve img {
+  margin-left: 10px;
+}
+
+.side-image-one img {
+  height: 200%;
+  width: 200%;
+}
+
+.article-side-two img {
+  width: 80px;
+  height: 80px;
+}
+
+.second-column img {
+  width: 100%;
+  height: 78%;
+}
+
+.side-image-three img {
+  width: 100%;
+  height: 100%;
+}
+
+.side-image-four img {
+  width: 100px;
+  height: 100px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.side-image-five img {
+  width: 100px;
+  height: 100px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.side-image-six img {
+  width: 100px;
+  height: 100px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.side-image-seven img {
+  width: 100px;
+  height: 100px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.side-image-eight img {
+  width: 100px;
+  height: 100px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.side-image-nine img {
+  width: 100px;
+  height: 100px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.well img {
+  width: 100%;
+  height: 100%;
+}
+
+.article-side-five {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0;
+  display: grid;
+}
+
+.container img {
+  width: 85%;
+  height: 130px;
 }
 
 .article-set-four .article-three img {
@@ -301,7 +399,6 @@ main {
   height: 70px;
 }
 
-/*Beginning of set five*/
 .article-set-five{
   margin: 0;
   padding-top: 10px;
@@ -309,11 +406,6 @@ main {
   grid-template-columns: 135px 675px;
   border-top: 1px solid #6160607c;
   cursor: pointer;
-}
-
-.image-five img {
-  width: 120px;
-  height: 140px;
 }
 
 .article-set-five .text-for-five {
@@ -348,12 +440,6 @@ main {
   cursor: pointer;
 }
 
-.image-six img {
-  width: 97%;
-  height: 97%;
-  margin-left: 10px;
-}
-
 .articles-of-set-six .article-two {
   margin-top: 10px;
   border-top: 1px solid #6160607c;
@@ -382,7 +468,7 @@ main {
   cursor: pointer;
 }
 
-/*Article set two begins*/
+/* Article set two begins */
 .article-set-seven{
   margin: 0;
   display: grid;
@@ -392,18 +478,9 @@ main {
   border-bottom: 1px solid #6160607c;
 }
 
-/*.seven-image{
-  width: auto;
-  height: auto;
-}*/
-
 figcaption{
   font-size: 10px;
   color: #7a7979;
-  margin-left: 10px;
-}
-
-.image-seven img{
   margin-left: 10px;
 }
 
@@ -425,6 +502,7 @@ figcaption{
   border-left: 1px solid #6160607c;
 }
 
+
 .article-set-nine {
   margin: 0;
   display: grid;
@@ -439,10 +517,6 @@ figcaption{
   grid-row-end: span 4;
   grid-template-columns: 210px 600px;
   border-bottom: 1px solid #6160607c;
-}
-
-.image-ten img{
-  margin-left: 10px;
 }
 
 .articles-of-set-ten .article-two {
@@ -462,11 +536,6 @@ figcaption{
   height: auto;
 }
 
-.image-eleven img {
-  width: 95%;
-  height: 95%;
-}
-
 .article-set-twelve {
   margin: 0;
   display: grid;
@@ -479,9 +548,6 @@ figcaption{
   border-top: 1px solid #6160607c;
 }
 
-.image-twelve img{
-  margin-left: 10px;
-}
 
 .article-set-thirteen {
   margin: 0;
@@ -528,7 +594,7 @@ figcaption{
   margin-left: 10px;
 }
 
-/*Side information begins*/
+/* Side information begins */
 .side-information{
   border-left: 1px solid #6160607c;
   margin-left: 0;
@@ -547,10 +613,6 @@ figcaption{
   height: 100%;
   width: 50%;
 }
-.side-image-one img {
-  height: 200%;
-  width: 200%;
-}
 
 .article-side-two {
   padding-top: 10px;
@@ -559,11 +621,6 @@ figcaption{
   display: grid;
   grid-template-columns: 160px 170px;
   border-bottom: 1px solid #6160607c;
-}
-
-.article-side-two img {
-  width: 80px;
-  height: 80px;
 }
 
 .article-side-two .article-two {
@@ -592,21 +649,10 @@ figcaption{
   border-bottom: 1px solid #6160607c;
 }
 
-.article-side-three .article-three {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border-bottom: 1px solid #6160607c;
-}
-
 .article-side-three .article-four {
   padding-top: 10px;
   padding-bottom: 10px;
   border-bottom: 1px solid #6160607c;
-}
-
-.article-side-three .article-four img {
-  width: 100%;
-  height: 100%;
 }
 
 .article-side-three .article-five {
@@ -625,11 +671,6 @@ figcaption{
 
 .side-image-three{
   padding-left: 10px;
-}
-
-.side-image-three img{
-  width: 100%;
-  height: 100%;
 }
 
 .article-side-three .article-seven {
@@ -666,13 +707,6 @@ figcaption{
   grid-template-columns: 70% 30%;
   padding-top: 10px;
   padding-bottom: 10px;
-}
-
-.side-image-four img {
-  width: 100px;
-  height: 100px;
-  padding-left: 10px;
-  padding-top: 10px;
 }
 
 .article-side-four {
@@ -718,47 +752,6 @@ figcaption{
   padding-bottom: 10px;
 }
 
-.side-image-five img {
-  width: 100px;
-  height: 100px;
-  padding-left: 10px;
-  padding-top: 10px;
-}
-
-.side-image-six img {
-  width: 100px;
-  height: 100px;
-  padding-left: 10px;
-  padding-top: 10px;
-}
-
-.side-image-seven img {
-  width: 100px;
-  height: 100px;
-  padding-left: 10px;
-  padding-top: 10px;
-}
-
-.side-image-eight img {
-  width: 100px;
-  height: 100px;
-  padding-left: 10px;
-  padding-top: 10px;
-}
-
-.side-image-nine img {
-  width: 100px;
-  height: 100px;
-  padding-left: 10px;
-  padding-top: 10px;
-}
-
-.article-side-five {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin: 0;
-  display: grid;
-}
 
 .article-side-five .article-one {
   padding-top: 10px;
@@ -797,7 +790,8 @@ figcaption{
 .article-two .sidetwo {
   padding-left: 15px;
 }
-/*End of side information styling*/
+
+/* End of side information styling */
 
 .second-part-body {
   border-top: 1px solid #6160607c;
@@ -807,7 +801,7 @@ figcaption{
 .more-news {
   display: grid;
   grid-template-columns: 25% 50% 25%;
-  padding: 20px 0 20px 0;
+  padding: 20px 0;
   border-bottom: 1px solid #6160607c;
 }
 
@@ -832,13 +826,8 @@ figcaption{
   padding-top: 5px;
 }
 .second-column {
-  padding: 0 10px 0 10px;
+  padding: 0 10px;
   border-right: 1px solid #6160607c;
-}
-
-.second-column img {
-  width: 100%;
-  height: 78%;
 }
 
 .third-column {
@@ -874,7 +863,7 @@ figcaption{
 .the-athletic {
   display: grid;
   grid-template-columns: 45% 20% 35%;
-  padding: 20px 0 10px 0;
+  padding: 20px 0 10px;
   border-bottom: 1px solid #6160607c;
 }
 
@@ -890,32 +879,6 @@ figcaption{
   padding-bottom: 10px;
 }
 
-.first-sports .text-one .article-one {
-  border-bottom: 1px solid #6160607c;
-  padding-bottom: 10px;
-}
-
-.first-sports .text-one .article-two {
-  padding-top: 5px;
-  padding-bottom: 10px;
-}
-
-.first-sports .side-image-ten img {
-  width: 90%;
-  height: 60%;
-  padding: 10px 0 0 10px;
-}
-
-.second-sports {
- padding: 10px 0 10px 10px;
- border-right: 1px solid #6160607c;
-}
-
-.third-sports {
-  margin-left: 10px;
-  padding-top: 10px;
-}
-
 .third-sports .article-one {
   border-bottom: 1px solid #6160607c;
   padding-bottom: 10px;
@@ -928,6 +891,29 @@ figcaption{
   padding-left: 10px;
 }
 
+.side-culture-articles {
+  display: grid;
+  border-left: 1px solid #6160607c;
+  padding-left: 20px;
+}
+
+.first-sports .text-one .article-one {
+  border-bottom: 1px solid #6160607c;
+  padding-bottom: 10px;
+}
+
+.first-sports .text-one .article-two {
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+
+.first-sports .side-image-ten img {
+  width: 90%;
+  height: 60%;
+  padding: 10px 0 0 10px;
+}
+
 .third-sports .article-three {
   padding-bottom: 10px;
   padding-left: 10px;
@@ -936,13 +922,16 @@ figcaption{
 .well {
   display: grid;
   grid-template-columns: 20% 20% 20% 20% 20%;
-  padding: 20px 0 20px 0;
+  padding: 20px 0;
   border-bottom: 1px solid #6160607c;
 }
 
-.well img {
-  width: 100%;
-  height: 100%;
+
+.well {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  padding: 20px 0;
+  border-bottom: 1px solid #6160607c;
 }
 
 .well .tip-one {
@@ -976,7 +965,7 @@ figcaption{
 .culture-and-lifestyle {
   display: grid;
   grid-template-columns: 75% 25%;
-  padding: 20px 0 20px 0;
+  padding: 20px 0;
   border-bottom: 1px solid #000;
 }
 
@@ -988,13 +977,6 @@ figcaption{
 
 .dani-image {
   margin-left: 10px;
-}
-
-.side-culture-articles {
-  display: grid;
-  border-left: 1px solid #6160607c;
-  padding-left: 20px;
-
 }
 
 .side-culture-articles .article-one,
@@ -1025,7 +1007,7 @@ figcaption{
 .games-one {
   display: grid;
   grid-template-columns: 33.33% 33.33% 33.33%;
-  padding: 20px 0 20px 0;
+  padding: 20px 0;
   border-bottom: 1px solid #6160607c;
 }
 
@@ -1110,7 +1092,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   display: flex;
-  padding: 0 5rem 0 5rem;
+  padding: 0 5rem;
   margin-bottom: 15px;
 }
 
