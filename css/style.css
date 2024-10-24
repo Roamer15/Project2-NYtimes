@@ -156,8 +156,8 @@ main {
 
 .main-body-info {
   display: grid;
-  grid-column-start:span 1;/* Helps to define the exact space given to a specific div (in this case main-body-info) */
-  grid-column-end: span 2;
+  grid-column-start: span 1;/* Helps to define the exact space given to a specific div (in this case main-body-info) */
+  grid-column: 1;
   grid-template-rows: 5px 5.2% 10px;
   gap: 3rem;
   width: 75%;
@@ -166,7 +166,7 @@ main {
 
 .year {
   grid-row-start: span 1;
-  grid-row-end: span 2;
+  grid-row: 1;
   display: flex;
   margin-bottom: 12px;
   cursor: pointer;
@@ -189,10 +189,9 @@ main {
 /* Article set one begins */
 .article-set-one {
   grid-row-start: span 2;
-  grid-row-end: span 3;
   padding-bottom: 30px;
   display: grid;
-  grid-template-columns: 210px 600px ;
+  grid-template-columns: 210px 600px;
   margin-bottom: 10px;
 }
 
@@ -222,7 +221,6 @@ main {
   margin: 0;
   display: grid;
   grid-row-start: span 3;
-  grid-row-end: span 4;
   grid-template-columns: 210px 600px;
   border-bottom: 1px solid #000;
 }
@@ -267,7 +265,7 @@ main {
   grid-template-columns: 380px 123px 135px;
 }
 
-.article-set-four .article-one table td{
+.article-set-four .article-one table td {
   padding: 2px 2px 2px 0;
   border-bottom: 1px solid #6160607c;
 }
@@ -282,8 +280,8 @@ main {
 }
 
 .article-set-four .article-three {
-border-left: 1px solid #6160607c;
-padding-left: 20px;
+  border-left: 1px solid #6160607c;
+  padding-left: 20px;
 }
 
 .image-five img {
@@ -297,11 +295,11 @@ padding-left: 20px;
   margin-left: 10px;
 }
 
-.image-seven img{
+.image-seven img {
   margin-left: 10px;
 }
 
-.image-ten img{
+.image-ten img {
   margin-left: 10px;
 }
 
@@ -393,13 +391,18 @@ padding-left: 20px;
   height: 130px;
 }
 
+.article-side-five img {
+  width: 90%;
+  height: 80px;
+}
+
 .article-set-four .article-three img {
   margin-top: 3px;
   width: 70px;
   height: 70px;
 }
 
-.article-set-five{
+.article-set-five {
   margin: 0;
   padding-top: 10px;
   display: grid;
@@ -469,16 +472,15 @@ padding-left: 20px;
 }
 
 /* Article set two begins */
-.article-set-seven{
+.article-set-seven {
   margin: 0;
   display: grid;
   grid-row-start: span 3;
-  grid-row-end: span 4;
   grid-template-columns: 210px 600px;
   border-bottom: 1px solid #6160607c;
 }
 
-figcaption{
+figcaption {
   font-size: 10px;
   color: #7a7979;
   margin-left: 10px;
@@ -502,7 +504,6 @@ figcaption{
   border-left: 1px solid #6160607c;
 }
 
-
 .article-set-nine {
   margin: 0;
   display: grid;
@@ -514,7 +515,6 @@ figcaption{
   margin: 0;
   display: grid;
   grid-row-start: span 3;
-  grid-row-end: span 4;
   grid-template-columns: 210px 600px;
   border-bottom: 1px solid #6160607c;
 }
@@ -548,7 +548,6 @@ figcaption{
   border-top: 1px solid #6160607c;
 }
 
-
 .article-set-thirteen {
   margin: 0;
   display: grid;
@@ -556,7 +555,7 @@ figcaption{
   border-bottom: 1px solid #6160607c;
 }
 
-.imafe-thirteen video{
+.imafe-thirteen video {
   margin-left: 10px;
   width: 90%;
   height: 95%;
@@ -595,7 +594,7 @@ figcaption{
 }
 
 /* Side information begins */
-.side-information{
+.side-information {
   border-left: 1px solid #6160607c;
   margin-left: 0;
   padding-left: 10px;
@@ -639,7 +638,7 @@ figcaption{
 }
 
 .article-side-three .article-one {
-  padding-bottom: 0px;
+  padding-bottom: 0;
 }
 
 .article-side-three .article-two {
@@ -692,6 +691,7 @@ figcaption{
   padding-bottom: 10px;
   border-bottom: 1px solid #6160607c;
 }
+
 .article-side-three .article-nine .article-nine-phase-two {
   border-left: 1px solid #6160607c;
   padding-left: 10px;
@@ -752,7 +752,6 @@ figcaption{
   padding-bottom: 10px;
 }
 
-
 .article-side-five .article-one {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -768,11 +767,6 @@ figcaption{
 
 .article-one .sidetwo {
   padding-left: 15px;
-}
-
-.article-side-five img {
-  width: 90%;
-  height: 80px;
 }
 
 .article-side-five .article-two {
@@ -825,6 +819,7 @@ figcaption{
 .first-column .charles-iii-related-news {
   padding-top: 5px;
 }
+
 .second-column {
   padding: 0 10px;
   border-right: 1px solid #6160607c;
@@ -897,6 +892,16 @@ figcaption{
   padding-left: 20px;
 }
 
+.side-culture-articles .article-one,
+.side-culture-articles .article-two,
+.side-culture-articles .article-three {
+  display: grid;
+  grid-template-columns: 74% 26%;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-bottom: 1px solid #6160607c;
+}
+
 .first-sports .text-one .article-one {
   border-bottom: 1px solid #6160607c;
   padding-bottom: 10px;
@@ -906,7 +911,6 @@ figcaption{
   padding-top: 5px;
   padding-bottom: 10px;
 }
-
 
 .first-sports .side-image-ten img {
   width: 90%;
@@ -918,14 +922,6 @@ figcaption{
   padding-bottom: 10px;
   padding-left: 10px;
 }
-
-.well {
-  display: grid;
-  grid-template-columns: 20% 20% 20% 20% 20%;
-  padding: 20px 0;
-  border-bottom: 1px solid #6160607c;
-}
-
 
 .well {
   display: grid;
@@ -977,16 +973,6 @@ figcaption{
 
 .dani-image {
   margin-left: 10px;
-}
-
-.side-culture-articles .article-one,
-.side-culture-articles .article-two,
-.side-culture-articles .article-three {
-  display: grid;
-  grid-template-columns: 74% 26%;
-  padding-bottom: 10px;
-  padding-top: 10px;
-  border-bottom: 1px solid #6160607c;
 }
 
 .side-culture-articles .article-three {
@@ -1073,11 +1059,6 @@ figcaption{
   margin: 10px; /* Add spacing between containers */
 }
 
-.container img{
-  width: 85%;
-  height: 130px;
-}
-
 footer {
   height: 100px;
   color: #7a7979;
@@ -1091,19 +1072,17 @@ footer {
   display: inline-block;
   justify-content: space-between;
   align-items: center;
-  display: flex;
   padding: 0 5rem;
   margin-bottom: 15px;
 }
 
 .list-footer ul {
- 
   list-style: none;
   display: flex;
   justify-content: space-evenly;
 }
 
-.list-footer ul li{
+.list-footer ul li {
   padding-left: 1rem;
   font-size: small;
   cursor: pointer;
