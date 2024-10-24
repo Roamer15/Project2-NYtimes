@@ -527,3 +527,44 @@ figcaption{
   height: 200%;
   width: 200%;
 }
+
+.article-side-two {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 160px 170px;
+  border-bottom: 1px solid #000;
+}
+
+.article-side-two img {
+  width: 80px;
+  height: 80px;
+}
+
+.article-side-two .article-two {
+  border-left: 1px solid #000;
+  margin-left: 10px;
+  padding-left: 10px;
+}
+
+.article-side-three {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0;
+  display: grid;
+  grid-template-rows: 20px 1fr 1fr;
+  border-bottom: 1px solid #000;
+}
+
+.article-side-three .article-one {
+  padding-bottom: 0px;
+}
+
+.article-side-three .article-two {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 57%;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
