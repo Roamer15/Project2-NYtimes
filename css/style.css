@@ -621,13 +621,156 @@ figcaption{
 }
 
 .article-side-three .article-nine {
+  display: grid;
+  grid-template-columns: 50% 50%;
   padding-top: 10px;
   padding-bottom: 10px;
   border-bottom: 1px solid #000;
 }
+.article-side-three .article-nine .article-nine-phase-two {
+  border-left: 1px solid #000;
+  padding-left: 10px;
+}
+
+.author-names {
+  font-size: small;
+  color: #7a7979;
+}
 
 .article-side-three .article-ten {
+  display: grid;
+  grid-template-columns: 70% 30%;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+.side-image-four img {
+  width: 100px;
+  height: 100px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.article-side-four {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0;
+  display: grid;
+  border-bottom: 1px solid #000;
+}
+
+.article-side-four .article-one {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.article-side-four .article-two {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.article-side-four .article-three {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.article-side-four .article-four {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.article-side-four .article-five {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.side-image-five img {
+  width: 100px;
+  height: 100px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.side-image-six img {
+  width: 100px;
+  height: 100px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.side-image-seven img {
+  width: 100px;
+  height: 100px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.side-image-eight img {
+  width: 100px;
+  height: 100px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.side-image-nine img {
+  width: 100px;
+  height: 100px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.article-side-five {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0;
+  display: grid;
+}
+
+.article-side-five .article-one {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 49% 51%;
+  border-bottom: 1px solid #000;
+}
+
+.article-one .sideone {
+  border-right: 1px solid #000;
+}
+
+.article-one .sidetwo {
+  padding-left: 15px;
+}
+
+.article-side-five img {
+  width: 90%;
+  height: 80px;
+}
+
+.article-side-five .article-two {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 49% 51%;
+}
+
+.article-two .sideone {
+  border-right: 1px solid #000;
+}
+
+.article-two .sidetwo {
+  padding-left: 15px;
 }
 
