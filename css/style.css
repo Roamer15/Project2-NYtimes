@@ -8,6 +8,7 @@ body {
   background-color: #fff;
   margin: 0 18%;
   height: 100%;
+  font-size: small;
 }
 
 main {
@@ -15,6 +16,7 @@ main {
 }
 
 .header {
+  padding-top: 20px;
   text-align: center;
 }
 
@@ -56,6 +58,7 @@ main {
   background-color: rgb(62, 178, 245);
   color: #fcfcfc;
   padding: 4px;
+  cursor: pointer;
 }
 
 .middle {
@@ -112,7 +115,8 @@ main {
 }
 
 .option-dropdown .material-icons {
-    color: #7a7979;
+  color: #7a7979;
+  cursor: pointer;
 }
 /*End of navbar div*/
 
@@ -164,10 +168,11 @@ main {
 }
 
 .year {
-    grid-row-start: span 1;
-    grid-row-end: span 2;
-    display: flex;
-    margin-bottom: 12px;
+  grid-row-start: span 1;
+  grid-row-end: span 2;
+  display: flex;
+  margin-bottom: 12px;
+  cursor: pointer;
 }
 
 .year #red-two {
@@ -202,6 +207,7 @@ main {
 
 .articles-of-set-one {
   border-bottom: 1px solid #6160607c;
+  cursor: pointer;
 }
 
 .articles-of-set-one .article-two {
@@ -229,6 +235,7 @@ main {
   margin-left: 10px;
   width: 100%;
   height: 100%;
+  cursor: pointer;
 }
 
 .articles-of-set-two .article-two {
@@ -1073,11 +1080,10 @@ figcaption{
 }
 
 .new {
-  display: flex; /* Make the container a flex container */
-  flex-wrap: wrap; /* Allow items to wrap to the next line if necessary */
-  justify-content: space-between; /* Space items evenly */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   margin-bottom: 100px;
-
 }
 
 .container {
@@ -1086,19 +1092,21 @@ figcaption{
 }
 
 .container img{
-  width: 100%;
-  height: 120px;
+  width: 85%;
+  height: 130px;
 }
 
 footer {
   height: 100px;
   color: #7a7979;
   font-size: 10px;
+  margin-top: 300px;
 }
 
 .list-footer {
+  border-top: 1px solid #6160607c;
   margin: 10px;
-  display: flex;
+  display: inline-block;
   justify-content: space-between;
   align-items: center;
   display: flex;
@@ -1117,4 +1125,9 @@ footer {
   padding-left: 1rem;
   font-size: small;
   cursor: pointer;
+}
+
+p {
+  font-size: small;
+  color: #7a7979;
 }
