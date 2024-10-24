@@ -908,3 +908,74 @@ figcaption{
   padding-left: 10px;
 }
 
+.well {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  padding: 20px 0 20px 0;
+  border-bottom: 1px solid #000;
+}
+
+.well img {
+  width: 100%;
+  height: 100%;
+}
+
+.well .tip-one {
+  padding-right: 10px;
+  padding-left: 10px;
+  border-right: 1px solid #000;
+}
+
+.well .tip-two {
+  padding-right: 10px;
+  padding-left: 10px;
+  border-right: 1px solid #000;
+}
+
+.well .tip-three {
+  padding-right: 10px;
+  padding-left: 10px;
+  border-right: 1px solid #000;
+}
+
+.well .tip-four {
+  padding-right: 10px;
+  padding-left: 10px;
+  border-right: 1px solid #000;
+}
+
+.well .tip-five {
+  padding-left: 10px;
+}
+
+.culture-and-lifestyle {
+  display: grid;
+  grid-template-columns: 75% 25%;
+  padding: 20px 0 20px 0;
+}
+
+.daniel-nigro {
+  margin: 0;
+  display: grid;
+  grid-template-columns: 210px 600px;
+}
+
+.dani-image {
+  margin-left: 10px;
+}
+
+.side-culture-articles {
+  display: grid;
+  border-left: 1px solid #000;
+  padding-left: 20px;
+}
+
+.side-culture-articles .article-one,
+.side-culture-articles .article-two,
+.side-culture-articles .article-three 
+{
+  display: grid;
+  grid-template-columns: 210px 600px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #000;
+}
