@@ -157,7 +157,6 @@ main {
 .main-body-info {
   display: grid;
   grid-column-start: span 1;/* Helps to define the exact space given to a specific div (in this case main-body-info) */
-  grid-column: 1;
   grid-template-rows: 5px 5.2% 10px;
   gap: 3rem;
   width: 75%;
@@ -166,7 +165,6 @@ main {
 
 .year {
   grid-row-start: span 1;
-  grid-row: 1;
   display: flex;
   margin-bottom: 12px;
   cursor: pointer;
@@ -668,7 +666,7 @@ figcaption {
   border-bottom: 1px solid #6160607c;
 }
 
-.side-image-three{
+.side-image-three {
   padding-left: 10px;
 }
 
@@ -1001,6 +999,7 @@ figcaption {
   display: grid;
   grid-template-columns: 75% 25%;
 }
+
 .img-one {
   width: 100px;
   height: 100px;
