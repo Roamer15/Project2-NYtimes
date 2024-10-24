@@ -845,3 +845,66 @@ figcaption{
   border-bottom: 1px solid #000;
   padding-bottom: 10px;
 }
+
+.the-athletic {
+  display: grid;
+  grid-template-columns: 45% 20% 35%;
+  padding: 20px 0 10px 0;
+  border-bottom: 1px solid #000;
+}
+
+.first-sports {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-right: 1px solid #000;
+}
+
+.first-sports .text-one {
+  padding-bottom: 10px;
+}
+
+.first-sports .text-one .article-one {
+  border-bottom: 1px solid #000;
+  padding-bottom: 10px;
+}
+
+.first-sports .text-one .article-two {
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+.first-sports .side-image-ten img {
+  width: 90%;
+  height: 60%;
+  padding: 10px 0 0 10px;
+}
+
+.second-sports {
+ padding: 10px 0 10px 10px;
+ border-right: 1px solid #000;
+}
+
+.third-sports {
+  margin-left: 10px;
+  padding-top: 10px;
+}
+
+.third-sports .article-one {
+  border-bottom: 1px solid #000;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+
+.third-sports .article-two {
+  border-bottom: 1px solid #000;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+
+.third-sports .article-three {
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+
